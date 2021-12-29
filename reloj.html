@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<HTMl lang="es">
+
+<link>
+    <meta charset="utf-8">
+    <title>Proyecto con JS</title>
+
+    <!--Estilos CSS-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="css/green.css">
+    
+
+    <!--jquery-->
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <!--moments-->
+    <script type="text/javascript" src="js/moment-with-locales.js"></script>
+
+    <!--mis scripts-->
+    <script type="text/javascript" src="js/main.js"></script>
+
+    
+
+</head>
+
+<body>
+
+    <div id="selector-theme">
+        <div id="to-green">
+            <img src="img/img-icon-green.jpg" alt="">
+        </div>
+        <div id="to-red">
+            <img src="img/img-icon-red.png" alt="">
+        </div>
+        <div id="to-skyblue">
+            <img src="img/img-icon-skyblue.jpg" alt="">
+        </div>
+    </div>
+
+    <section id="global">
+
+        <!--Cabecera-->
+        <header>
+            <div id="logo">
+                <h1>Proyecto JS</h1>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="reloj.html">Reloj</a></li>
+                    <li><a href="about.html">Sobre mi</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav><br>
+        </header>
+
+        <!--Contenido-->
+        <section id="content">
+            <div id="box">
+                <!-------cargar un reloj------->
+                
+                <div id="reloj">
+                    
+                </div>
+
+            
+
+            </div>
+
+            <aside id="sidebar">
+                <div id="about">
+                    <h4>¿Quien soy?</h4>
+                    <img src="img/cat.jpg" alt="">
+                    <hr hidden>
+                    <p style="text-align: center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta semper nunc, sed interdum
+                        sapien aliquam non. Nulla facilisi. Quisque lobortis lacus quis erat dictum commodo. Aliquam
+                        lacus eros, bibendum nec porttitor at.
+                    </p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                        <form>
+                            <label for="name">Nombre</label><br>
+                            <input type="text" name="name" id="name">
+                            <br>
+                            <label for="mail">Mail</label><br>
+                            <input type="text" name="mail" id="mail">
+                            <br>
+                            <label for="passwd">Contraseña</label><br>
+                            <input type="text" name="passwd" id="passwd"><br>
+
+                            <input type="submit" id="entrar"></input>
+                        </form>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+
+        </section>
+
+    </section>
+
+    <footer>
+
+        JS Germán Leguizamón &copy;
+
+        <a href="#" class="subir">Ir arriba</a>
+
+    </footer>
+
+</body>
+
+
+</HTMl>
